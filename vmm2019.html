@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <title>Vision Meets Mapping: Computer Vision for Location-based Reasoning and Mapping | CVPR 2019</title>
+    	<meta name="description" content="Vision meets mapping tutorial, CVPR 2019">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- 
+Flex Template 
+http://www.templatemo.com/tm-406-flex
+-->
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+        
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/templatemo_misc.css">
+        <link rel="stylesheet" href="css/templatemo_style.css">
+
+        <script src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+        <![endif]-->
+
+
+        <div class="site-main" id="sTop">
+            <div class="site-header">
+                <div class="container">
+                    <div class="row">
+                    </div> <!-- /.row -->
+                </div> <!-- /.container -->
+                <div class="main-header">
+                    <div class="container">
+                        <div id="menu-wrapper">
+                            <div class="row">
+								<div class="logo-wrapper2 col-md-2 col-sm-2">
+                                    <h1><a href="http://cvpr2019.thecvf.com/">Vision&Mapping</a></h1>
+                                </div> <!-- /.logo-wrapper -->
+                                <div class="col-md-10 col-sm-10 main-menu text-right">
+                                    <div class="toggle-menu visible-sm visible-xs"><i class="fa fa-bars"></i></div>
+                                    <ul class="menu-first">
+                                        <li class="active"><a href="#">Home</a></li>
+										<li><a href="#topics">Intro/Topics</a></li>
+										<li><a href="#organizers">Organizers</a></li>	
+										<li><a href="#invitedSpeakers">Invited Speakers</a></li>
+										<li><a href="#agenda">Agenda</a></li>		
+										<li><a href="#downloads">Downloads</a></li>						
+                                    </ul>                                    
+                                </div> <!-- /.main-menu -->
+                            </div> <!-- /.row -->
+                        </div> <!-- /#menu-wrapper -->                        
+                    </div> <!-- /.container -->
+                </div> <!-- /.main-header -->
+            </div> <!-- /.site-header -->
+            <div class="site-slider">
+                <div class="slider">
+                    <div class="flexslider">
+                        <ul class="slides">
+                            <li>
+                                <div class="overlay"></div>
+                                <img src="images/slide1.png" alt="">
+                                <div class="slider-caption visible-sm visible-md visible-lg visible-xs">
+								    <p>1ST international tutorial on </p>
+                                    <h2>Vision Meets Mapping</h2>
+                                    <p>Computer Vision for Location-based Reasoning and Mapping</p>
+                                    <a href="http://cvpr2019.thecvf.com/" class="slider-btn">CVPR 2019</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div> <!-- /.flexslider -->
+                </div> <!-- /.slider -->
+            </div> <!-- /.site-slider -->
+        </div> <!-- /.site-main -->
+		
+        <div class="content-section" id="topics">
+            <div class="container">
+                <div class="row">
+                    <div class="heading-section col-md-12 text-center">
+                        <h2>Introduction and Topics</h2>
+                    </div> <!-- /.heading-section -->
+                </div> <!-- /.row -->
+				<div class="row">
+					<div class="skills-heading">
+						We live in a world where location is
+						the key for many activities, and computer vision
+						plays a key role for answering the fundamental questions for location-based reasoning and mapping: (1) Where am I? (2) Where i am going? (3) How do i get there? The future world, not too far from our real life, would be full of autonomous robotics and AI agents: autonomous vehicles, autonomous taxis, autonomous delivery vans, autonomous drones, autonomous robotics etc. and location-based reasoning, especially mapping, has drawn a lot of attention from the computer vision community recently, both academia and industry. <br>
+						This tutorial session brings together people from around the world who are practicing computer vision research for mapping/location- based reasoning in both industry and academia, and would cover the following topics of interests (including but not limited to):
+					</div>
+                    <div class="col-md-12 text-center">
+                        <div class="skills-heading">
+                            <h1 class="skills-content">Vision-based Map Making</h1>
+                            <p class="small-text"></p>
+							<h3 class="skills-content">Vision-based High Definition Map Creation</h3>
+							<p class="small-text"></p>
+							<h3 class="skills-content">Crowd Sourced-vision-based Map Creation</h3>
+                            <p class="small-text"></p>
+							<h3 class="skills-content">Semantic Map</h3>
+							<p class="small-text"></p>
+							<h3 class="skills-content">Structure Map</h3>
+                            <p class="small-text"></p>
+							<h3 class="skills-content">Semantic Map vs. Structure Map</h3>
+							<p class="small-text"></p>
+							<h1 class="skills-content">Vision-based Localization</h1>
+                            <p class="small-text"></p>
+							<h3 class="skills-content">Lidar-based Localization</h3>
+							<p class="small-text"></p>
+							<h3 class="skills-content">Multi-sensor-based Localization</h3>
+                            <p class="small-text"></p>
+							<h3 class="skills-content">2D/3D Scene Understanding and Location-based Reasoning</h3>
+							<p class="small-text"></p>
+							<h3 class="skills-content">2D/3D Visual Landmark Detection</h3>
+                            <p class="small-text"></p>
+                        </div>
+                    </div> <!-- /.col-md-12 -->
+                </div> <!-- /.row -->
+            </div> <!-- /.container -->
+		</div> <!-- /#topics -->
+		
+		<div class="content-section" id="locationTime">
+            <div class="container">
+                <div class="row">
+                    <div class="heading-section col-md-12 text-center">
+                        <h2>Location and Time</h2>
+                    </div> <!-- /.heading-section -->
+                </div> <!-- /.row -->
+				<div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="skills-heading">
+                            <h1 class="skills-content">Time: <b>June 16 (Sunday) 1:00pm - 5:30pm</b></h1>
+                            <p class="small-text"></p>
+							<h1 class="skills-content">Location: <a href="http://cvpr2019.thecvf.com/program/tutorials"><b>Seaside 6</b></a>, Long Beach Convention Center, Long Beach, CA, USA</h1>
+                            <p class="small-text"></p>
+                            <h1 class="skills-content">Address: 300 E Ocean Blvd, Long Beach, CA 90802</h1>							
+                        </div>
+                    </div> <!-- /.col-md-12 -->
+                </div> <!-- /.row -->
+            </div> <!-- /.container -->
+		</div>
+		
+        <div class="content-section" id="organizers">
+            <div class="container">
+                <div class="row">
+                    <div class="heading-section col-md-12 text-center">
+                        <h2>Organizers</h2>
+                    </div> <!-- /.heading-section -->
+                </div> <!-- /.row -->
+                <div class="row">
+				    <div class="team-member col-md-3 col-sm-6">
+                        <div class="member-thumb">
+                            <img src="images/member5.jpg" alt="">
+                            <div class="team-overlay">
+                                <h3>Xiang(Sean) Ma</h3>
+                                <span>Amazon</span>
+                                <ul class="social">
+                                    <li><a href="https://www.linkedin.com/in/seanxiangma/" class="fa fa-linkedin"></a></li>
+                                </ul>
+                                <!-- <ul class="social">
+                                    <li><a href="#" class="fa fa-facebook"></a></li>
+                                    <li><a href="#" class="fa fa-twitter"></a></li>
+                                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                                </ul> -->
+                            </div> <!-- /.team-overlay -->
+                        </div> <!-- /.member-thumb -->
+						<br>
+						<div class = "row text-center"
+								<h3><a href="https://www.linkedin.com/in/seanxiangma/">Xiang(Sean) Ma</a></h3>
+								<h3>Amazon</h3>
+						</div>
+                    </div> <!-- /.team-member -->
+                </div> <!-- /.row -->
+            </div> <!-- /.container -->
+        </div> <!-- /#organizers -->
+	
+        <div class="content-section" id="invitedSpeakers">
+            <div class="container">
+                <div class="row">
+                    <div class="heading-section col-md-12 text-center">
+                        <h2>Invited Speakers</h2>
+                    </div> <!-- /.heading-section -->
+                </div> <!-- /.row -->
+                <div class="row">
+                    <div class="team-member col-md-3 col-sm-6">
+                        <div class="member-thumb">
+                            <img src="images/member6.jpg" alt="">
+                            <div class="team-overlay">
+                                <h3>Xin Chen</h3>
+                                <span>Director of Engineering, HERE Technologies</span>
+								<span>Adjunct Professor, Northwestern Univ. and IIT </span>
+                                <ul class="social">
+                                    <li><a href="https://www.linkedin.com/in/xchen" class="fa fa-linkedin"></a></li>
+                                </ul>
+                            </div> <!-- /.team-overlay -->
+                        </div> <!-- /.member-thumb -->
+						<br>
+						<div class = "row text-center"
+								<h3><a href="https://www.linkedin.com/in/xchen">Xin Chen</a></h3>
+		                		<h3>Director of Engineering, HERE Technologies</h3>
+						</div>
+                    </div> <!-- /.team-member -->
+                    <div class="team-member col-md-3 col-sm-6">
+                        <div class="member-thumb">
+                            <img src="images/member1.jpg" alt="">
+                            <div class="team-overlay">
+                                <h3>Raquel Urtason</h3>
+                                <span>Professor, University of Toronto</span>
+								<span>Head, Uber ATG Toronto</span>
+                                <ul class="social">
+                                    <li><a href="https://ca.linkedin.com/in/raquel-urtasun-298400139" class="fa fa-linkedin"></a></li>
+                                </ul>
+                            </div> <!-- /.team-overlay -->
+                        </div> <!-- /.member-thumb -->
+						<br>
+						<div class = "row text-center"
+								<h3><a href="https://ca.linkedin.com/in/raquel-urtasun-298400139">Raquel Urtason</a></h3>
+		                		<h3>Professor at Univ. of Toronto and Head at Uber ATG Toronto</h3>
+						</div>
+                    </div> <!-- /.team-member -->
+                    <div class="team-member col-md-3 col-sm-6">
+                        <div class="member-thumb">
+                            <img src="images/member2.jpg" alt="">
+                            <div class="team-overlay">
+                                <h3>Xiaofeng Ren</h3>
+                                <span>Chief Scientist, Amap (AutoNavi) and Alibaba</span>
+                                <ul class="social">
+                                    <li><a href="https://www.linkedin.com/in/xiaofeng-ren-6939ab90" class="fa fa-linkedin"></a></li>
+                                </ul>
+                            </div> <!-- /.team-overlay -->
+                        </div> <!-- /.member-thumb -->
+						<br>
+						<div class = "row text-center"
+								<h3><a href="https://www.linkedin.com/in/xiaofeng-ren-6939ab90">Xiaofeng Ren</a></h3>
+		                		<h3>Chief Scientist, Amap (AutoNavi) and Alibaba</h3>
+						</div>
+                    </div> <!-- /.team-member -->
+                    <div class="team-member col-md-3 col-sm-6">
+                        <div class="member-thumb">
+                            <img src="images/member3.jpg" alt="">
+                            <div class="team-overlay">
+                                <h3>Ben Kadlec</h3>
+                                <span>Engineering Manager, Uber ATG Boulder</span>
+                                <ul class="social">
+                                    <li><a href="https://www.linkedin.com/in/ben-kadlec-55761411" class="fa fa-linkedin"></a></li>
+                                </ul>
+                            </div> <!-- /.team-overlay -->
+                        </div> <!-- /.member-thumb -->
+						<br>
+						<div class = "row text-center"
+								<h3><a href="https://www.linkedin.com/in/ben-kadlec-55761411">Ben Kadlec</a></h3>
+		                		<h3>Engineering Manager, Mapping at Uber ATG Boulder</h3>
+						</div>
+                    </div> <!-- /.team-member -->
+                    <div class="team-member col-md-3 col-sm-6">
+                        <div class="member-thumb">
+                            <img src="images/member4.jpg" alt="">
+                            <div class="team-overlay">
+                                <h3>Peter Kontschieder</h3>
+                                <span>Director of Research, Mapillary</span>
+								<span></span>
+								<span></span>
+                                <ul class="social">
+                                    <li><a href="https://www.linkedin.com/in/peter-kontschieder-2a6410134/" class="fa fa-linkedin"></a></li>
+                                </ul>
+                            </div> <!-- /.team-overlay -->
+                        </div> <!-- /.member-thumb -->
+						<br>
+						<div class = "row text-center"
+								<h3><a href="https://www.linkedin.com/in/peter-kontschieder-2a6410134/">Peter Kontschieder</a></h3>
+		                		<h3>Director of Research, Mappillary</h3>
+						</div>
+                    </div> <!-- /.team-member -->
+                </div> <!-- /.row -->
+            </div> <!-- /.container -->
+        </div> <!-- /#invited-speakers -->
+		
+		<div class="content-section" id="agenda">
+            <div class="container">
+                <div class="row">
+                    <div class="heading-section col-md-12 text-center">
+                        <h2>Agenda</h2>
+                    </div> <!-- /.heading-section -->
+                </div> <!-- /.row -->
+				<b>Time: Sunday June 16, 1:00pm - 5:30pm PST
+				<style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+                        <table>
+						<tr>
+							<th>Time</th>
+							<th>Event</th>
+						 </tr>
+						 <tr>
+							<th>1:00pm - 1:05pm</th>
+							<th>Welcome and introduction: <a href="https://www.linkedin.com/in/seanxiangma/">Xiang(Sean) Ma</a>, Amazon - Topic: <a href="docs/CVPR2019-VMMTutorial-SeanMa.pdf"> Introduction to Vision Meets Mapping (VMM) Tutorial (click to download)</a></th>
+							
+						 </tr>
+						 <tr>
+							<th>1:05pm - 1:50pm</th>
+							<th>Invited Talk: <a href="http://www.cs.toronto.edu/~urtasun/">Raquel Urtason</a>, Univ. of Toronto & Uber ATG Toronto - Topic: Mapping for autonomous driving</th>
+						</tr>
+						<tr>
+							<th>1:50pm - 2:35pm</th>
+							<th>Invited Talk: <a href="https://homes.cs.washington.edu/~xren/">Xiaofeng Ren</a>, Amap (Autonavi) & Alibaba - Topic: <a href="docs/CVPR2019-VMMTutorial-XiaofengRen.pdf">Mapping and Navigating in a Hectic World (click to download)</a>  </th>
+						</tr>
+						<tr>
+							<th>2:35pm - 3:15pm</th>
+							<th>Invited Talk: <a href="http://www.mccormick.northwestern.edu/research-faculty/directory/affiliated/chen-xin.html">Xin Chen</a>, HERE Technologies - Topic: HD Live Map for Automated Driving: Camera Meets LIDAR</th>
+						</tr>
+						<tr>
+							<th>3:15pm - 3:35pm</th>
+							<th>Break</th>
+						</tr>
+						<tr>
+							<th>3:35pm - 4:15pm </th>
+							<th>Invited Talk: <a href="https://www.linkedin.com/in/ben-kadlec-55761411/">Ben Kadlec</a>, Uber ATG Boulder - Topic: Computer Vision for HD Map Safety</th>
+						</tr>
+						<tr>
+							<th>4:15pm - 5:00pm</th>
+							<th>Invited Talk: <a href="https://www.linkedin.com/in/peter-kontschieder-2a6410134/">Peter Kontschieder</a>, Mapillary - Topic: <a href="docs/CVPR2019-VMMTutorial-PeterKontschieder.pdf">Recognition for Mapping on a Global Scale using Deep Learning and Computer Vision (click to download)</th>
+						</tr>
+						<tr>
+							<th>5:00pm - 5:30pm</th>
+							<th>Panel Discussions and Conclusion</th>
+						</tr>
+						</table>
+            </div> <!-- /.container -->
+		</div> <!-- /#agenda -->
+            
+			
+		<div class="content-section" id="downloads">
+            <div class="container">
+                <div class="row">
+                    <div class="heading-section col-md-12 text-center">
+                        <h2>Presentation Slides and Videos</h2>
+                    </div> <!-- /.heading-section -->
+                </div> <!-- /.row -->
+				<b>Copy rights belong to speakers and organizer
+				<br>
+				<style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+                        <table>	
+						 <tr>
+							<th>Dr. Xiaofeng Ren</th>
+							<th><iframe width="640" height="480" src="docs/CVPR2019-VMMTutorial-XiaofengRen.pdf" frameborder="0" allowfullscreen></iframe></th>
+						</tr>
+						 <tr>
+							<th>Dr. Peter Kontschieder</th>
+							<th><iframe width="640" height="480" src="docs/CVPR2019-VMMTutorial-PeterKontschieder.pdf" frameborder="0" allowfullscreen></iframe>
+							<iframe width="640" height="480" src="https://www.youtube.com/embed/_BHTW88-R3U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							<iframe width="640" height="480" src="https://www.youtube.com/embed/2pFQFVoZoyE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							<iframe width="640" height="480" src="https://www.youtube.com/embed/e6qdeZKVFW0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							<iframe width="640" height="480" src="https://www.youtube.com/embed/0N0x4sBaeGE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</th>
+						</tr>	
+							 <tr>
+								<th>Dr. Xin Chen</th>
+								<th><iframe width="640" height="480" src="https://www.youtube.com/embed/BtgHV91C_Is" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></th>
+							</tr>
+						 <tr>
+							 <th>Dr. Ben Kadlec</th>
+							<th><iframe width="640" height="480" src="https://www.youtube.com/embed/ecZ3MYInweg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								<iframe width="640" height="480" src="https://www.youtube.com/embed/F2SEULRQi7Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								<iframe width="640" height="480" src="https://www.youtube.com/embed/wj_mEVh9tiY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								<iframe width="640" height="480" src="https://www.youtube.com/embed/U40gAKBwsSM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</th>
+						 </tr>
+						</table>
+            </div> <!-- /.container -->
+		</div> <!-- /#Downloads -->
+					
+<div id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-xs-12 text-left">
+						<h1 class="skills-content">For any inqueries or questions about the tutorial session, please contact <a href="mailto:xiang.sean.ma@gmail.com">Xiang(Sean) Ma</a></h1>
+						<br>
+                        <span>Copyright &copy; 2019 - Xiang(Sean) Ma</span>
+                  </div> <!-- /.text-center -->
+                    <div class="col-md-4 hidden-xs text-right">
+                        <a href="#top" id="go-top">Back to top</a>
+                    </div> <!-- /.text-center -->
+                </div> <!-- /.row -->
+            </div> <!-- /.container -->
+        </div> <!-- /#footer -->
+        
+        <script src="js/vendor/jquery-1.11.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- templatemo 406 flex -->
+    </body>
+</html>

@@ -282,11 +282,27 @@ hr {
 }
 
 .logo-wrapper {
-  background: url(../images/logo.png) no-repeat;
+  background: url(../images/logo2020.jpg) no-repeat;
   height: 100px;
   background-position: 30px;
 }
 .logo-wrapper a {
+  display: inline-block;
+  overflow: hidden;
+  padding-left: 130px;
+  line-height: 100px;
+  text-transform: none;
+  color: #ec523f;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.logo-wrapper2 {
+  background: url(../images/logo2019.png) no-repeat;
+  height: 100px;
+  background-position: 30px;
+}
+.logo-wrapper2 a {
   display: inline-block;
   overflow: hidden;
   padding-left: 130px;
